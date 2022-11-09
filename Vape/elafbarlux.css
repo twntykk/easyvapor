@@ -1,0 +1,193 @@
+.vapeinf{
+    display: flex;
+    border-bottom: solid 1px  #DCDCDC;
+}
+.vapetxt{
+    text-align: left;
+    margin:2% 0;
+    max-width:50%;
+    padding: 1%;
+}
+.vapeimg{
+    max-width: 50%;
+}
+.buy{
+    display: flex;
+    padding: 0 5%;
+    align-items: flex-end;
+    max-height: 100%;
+}
+.input{
+    padding: 10px;
+    font-size: 10px;
+    width: 100%;
+    max-width: 100%;
+    
+}
+.inputbuy{
+     padding: 1%;
+     font-size: 18px;
+     border: 1px solid white;
+     border-bottom: 1px solid #333  ;
+    transition: border-color 0.15s linear;
+    border-radius: 0.2rem;
+    width: 100%;
+    
+}
+.inputbuy::placeholder{
+    font-family: 'Oswald', sans-serif;
+    
+}
+.inputbuy:focus{
+    border-bottom: 1px solid #333  ;
+    outline: 0;
+}
+.cost{
+    padding: 1%;
+     font-size: 18px;
+     border: 1px solid white;
+     border-bottom: 1px solid #333  ;
+    transition: border-color 0.15s linear;
+    border-radius: 0.2rem;
+    width: 100%;
+    color:red;
+}
+.buybtn{
+    height: 100%;
+    margin: 1% 5% ;
+    padding:0.5% 7% ;
+    background-color: #DCDCDC ;
+    color:#333;
+    transition: background-color 0.2s linear;
+    
+}
+.buybtn:hover{
+    background-color: #333;
+    color: white;
+}
+.selectbuy{
+     padding: 10px;
+     font-size: 18px;
+     border: 1px solid white;
+     border-bottom: 1px solid #333  ;
+    transition: border-color 0.15s linear;
+    border-radius: 0.2rem;
+    width: 100%;
+    
+}
+.selectbuy::placeholder{
+    font-family: 'Oswald', sans-serif;
+    
+}
+.selectbuy:focus{
+    border-bottom: 1px solid #333  ;
+    outline: 0;
+}
+.feature{
+    text-align: left;
+    display: inline-block;
+    justify-content: flex-start;
+    padding: 2% 17%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+}
+.featureif{
+    text-align: left;
+    border-bottom: solid 1px #DCDCDC;
+}
+@media (max-width:767px){
+    .vapetxt{
+        font-size:13px;
+    }
+     .inputbuy{
+     padding: 6px;
+     font-size: 15px;
+    
+}
+    .selectbuy{
+     padding: 6px;
+     font-size: 15px;
+}
+    .buybtn{
+        font-size: 15px;
+  
+    padding:0.5% 6% ;
+   
+    
+}
+     .cost{
+    
+     font-size: 15px;
+     
+}
+    .featureif{
+    font-size:13px;
+
+}
+}
+@media (max-width:560px){
+    .vapetxt{
+        font-size:8px;
+    }
+    .inputbuy{
+     padding: 2px;
+     font-size: 9px;
+    
+}
+    .selectbuy{
+     padding: 3px;
+     font-size: 9px;
+}
+    .buybtn{
+        font-size: 9px;
+  
+    padding:0.5% 4% ;
+   
+    
+}
+     .cost{
+    
+     font-size: 10px;
+     
+}
+    .featureif{
+    font-size:8px;
+
+}
+}
+@media (max-width:366px){
+     .vapetxt{
+        font-size:9px;
+         
+    }
+    .inputbuy{
+     padding: 3px;
+     font-size: 10px;
+    
+}
+    .selectbuy{
+     padding: 3px;
+     font-size: 10px;
+}
+    .buybtn{
+        font-size: 10px;
+  
+    padding:0.5% 4% ;
+   
+    
+}
+    .featureif{
+    font-size:9px;
+
+}
+
+    .cost{
+    
+     font-size: 10px;
+     
+}
+}
+@media (max-width:312px){
+    .vapetxt{
+        font-size:7px;
+    }
+}
