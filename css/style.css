@@ -67,6 +67,11 @@ img{
     
     display:none;
 }
+.menu_text_null{
+    text-decoration: none;
+    color:white;
+    margin:0 5px;
+}
 .menu_text{
     text-decoration: none;
     color:#333;
