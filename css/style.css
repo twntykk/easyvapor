@@ -3,6 +3,7 @@ body{
     font-family: 'Oswald', sans-serif;
     color:#333;
     margin:0;
+    font-size:16px;
 }
 p{
     margin: 0;
@@ -12,6 +13,7 @@ img{
 }
 .content{
     background-color: white;
+    min-height: 100vh;
 }
 .container{
     max-width: 1200px;
@@ -20,11 +22,16 @@ img{
 .header{
     display: flex;
     justify-content: space-between;
+    border-bottom: solid 1px #E6E6E6;
 }
 .nav{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.nav_text{
+    text-decoration: none;
+    color:#333;
 }
 .nav_btn{
     margin: 0 20px;
@@ -108,7 +115,8 @@ img{
     margin-bottom: 30px;
 }
 .main{
-    border-bottom: solid 1px #333;
+    border-bottom: solid 1px #E6E6E6;
+    border-top: solid 1px #E6E6E6;
     text-align: center;
 }
 .product{
@@ -172,7 +180,6 @@ img{
 .page_item{
     display: inline-block;
     padding: 10px;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     margin:20px 10px;
 }
 .page_item:hover{
