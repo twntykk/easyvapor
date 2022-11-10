@@ -11,6 +11,11 @@ p{
 img{
     max-width: 100%;
 }
+.logo_link{
+    text-decoration: none;
+    color:#333;
+   
+}
 .content{
     background-color: white;
     min-height: 100vh;
@@ -74,9 +79,13 @@ img{
 .menu:hover .menu_content {
     display: block;
 }
-.logo{
+.logo_container{
     display: flex;
     align-items: center;
+    width: 100%;
+    max-width: 15%;
+}
+.logo{
     width: 100%;
     max-width:100%;
     flex: 0 0 100px;
