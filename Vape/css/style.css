@@ -26,6 +26,10 @@ height: 7px;
     width:100%;
     
 }
+.sell_title{
+    margin:10px;
+    font-size: 20px;
+}
 .sell_input{
     margin :10px;
     width:100%;
@@ -72,8 +76,7 @@ height: 7px;
 .sell_text{
     max-width:50%;
 }
-.sell_char{
-}
+
 ::-webkit-scrollbar-thumb {
   background-color: #333;
 }
@@ -96,6 +99,10 @@ height: 7px;
     .sell_btn{
         font-size:13px;
     }
+    .sell_title{
+    margin:10px;
+    font-size: 16px;
+}
 }
 @media (max-width:970px){
     body{
@@ -112,6 +119,10 @@ height: 7px;
     .sell_btn{
         font-size:8px;
     }
+    .sell_title{
+    margin:5px;
+    font-size: 12px;
+}
 }
 @media (max-width:768px){
     body{
