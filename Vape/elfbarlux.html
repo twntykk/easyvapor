@@ -62,21 +62,30 @@
                 </div>
                 <div class="sell_inf">
                         
-                      <form>
-                      <b class="sell_title">Одноразовая pod-система Elfbar lux 1500</b><br>
-                       <input type="text" class="sell_input" placeholder="Имя">
-                       <input type="text" class="sell_input" placeholder="Фамилия">
-                       <input type="text" class="sell_input" placeholder="Город">
-                       <input type="tel" class="sell_input" placeholder="Номер телефона"><br>
-                       <select class="sell_sellect">
-                        <option value="books">Peach Mango Guava</option>
-                        <option value="html">Banana milk</option>
-                        <option value="css">Strawberry energy</option>
-                        <option value="php">Strawberry energy </option>
-                        <option value="js">Strawberry grape</option>
+                     <form action="../sendmail.php" method="post">
+                      <b class="sell_title">Одноразовая pod-система Elfbar 1500 lux</b><br>
+                       <input type="hidden" name="product" value="Elfbar 1500 lux">
+                       <input type="text" class="sell_input" placeholder="Имя" name="name">
+                       <input type="text" class="sell_input" placeholder="Фамилия" name="2name">
+                       <input type="text" class="sell_input" placeholder="Город" name="city">
+                       <input type="tel" class="sell_input" placeholder="Номер телефона" name="phone"><br>
+                       <lable for="pocht" class="pocht">Доставить:</lable>
+                        <input type="radio" id="pocht" name="pocht"value="Укр почтой">
+                       <lable for="pocht">Укр почтой</lable>
+                       <input type="radio" id="pocht" name="pocht" value="Новой почтой" checked>
+                       <lable for="pocht">Нова почтой</lable><br>
+                       <input type="text" class="sell_input" placeholder="Отделение почты/Почтовый индекс" name="otdpocht">
+                       <select class="sell_sellect" name="select">
+                        <option value="Peach Mango Guava">Peach Mango Guava</option>
+                        <option value="Banana milk">Banana milk</option>
+                        <option value="Strawberry energy">Strawberry energy</option>
+                        <option value="Strawberry grape">Strawberry grape</option>
                       </select><br>
-                       <input type="submit" class="sell_btn" placeholder="Заказать">
+                      <input type="checkbox" id="poln" name="poln" value="1" class="pocht">
+                          <label for="poln">Подтверждаю что мне больше 18 лет</label><br>
+                       <input type="submit" class="sell_btn" value="Оформить заказ">
                     </form>
+                      
                 </div>
                 </div>
                 <div class="title">
