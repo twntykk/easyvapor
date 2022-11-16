@@ -179,6 +179,11 @@ img{
     transition: color 0.2s linear;
     text-transform: uppercase;
     align-self: flex-end;
+    text-decoration: none;
+}
+.product_btn{
+    text-decoration: none;
+    color:white;
 }
 .product_button:hover{
     background-color: darkgrey;
